@@ -1,0 +1,79 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background: url('Background-gif/default.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100vh;
+    background-position: top center;
+}
+
+h1{
+    text-shadow: 2px 3px rgba(0,0,0,.2);
+}
+
+.warning{
+    display: none;
+    background-color: red;
+    font-size: 20px;
+    margin: 10px auto 5px;
+}
+
+.app-main {
+    width: 50vh;
+    border-radius: 8px;
+    margin: 100px auto;
+    background-color: rgba(240, 248, 255, 0.6);
+    text-align: center;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+}
+
+.search-body {
+    /* background-color: rgba(240, 248, 255, 0.8); */
+    border-bottom: 2px solid rgba(240, 248, 255, 0.8);
+    margin-bottom: 15px;
+}
+
+.search-body #search-box {
+    width: 100%;
+    font-size: 1.8rem;
+    padding: 5px;
+    text-align: center;
+    margin: 15px auto 20px;
+    border-radius: 5px;
+    background-color: rgba(255, 255, 255, 0.8);
+    border: none;
+    color: #582233;
+}
+.weather-body{
+    display: none;
+    background-color: rgba(255, 255, 255, 0.6);
+    border-radius: 8px;
+    padding: 20px;
+}
+.city,.date{
+    color: #582233;
+    font-size: 1.2rem;
+    font-weight: bolder;
+    margin: 5px auto 5px;
+}
+.temperature{
+    color: #582233;
+    text-shadow: 2px 4px rgba(0,0,0,.2);
+    font-size: 3rem;
+    font-weight: 700;
+    margin: 20px 0;
+}
+.min-max,.weather,.humidity-pressure{
+    color: #582233;
+    font-size:1rem;
+    font-weight:600;
+    margin: 10px auto 5px;
+}
+
