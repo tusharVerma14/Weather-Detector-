@@ -13,11 +13,13 @@
 
 ## About The Project
 A simple and responsive Weather web app built using HTML, CSS, and Javascript. It uses <a href="https://openweathermap.org/api">OpenWeatherMap API</a> to fetch Temperature, Weather, Humidity & Wind Speed details.
-Below Is The Sample of Project :-
-[recording-2023-06-26-09-33-40.webm](https://github.com/tusharVerma14/Weather-Detector-/assets/103408768/0c8970f0-7f13-4a18-a592-4ccfb3b8445b)
+Below Is The Sample of Project:-
+
+[recording-2023-06-26-09-33-40.webm](https://github.com/tusharVerma14/Weather-Detector-/assets/103408768/531ecbe5-27c1-4a76-ac88-1475fab4be3a)
 
 ### Built With
 * HTML & CSS
+
 * Javascript
 * OpenWeatherMap
 
